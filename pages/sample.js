@@ -5,6 +5,9 @@ export default props => (
   <Layout>
     <div id="app">
       <QuetionList />
+      <div>Hello</div>
+      {console.log(props)}
+      <h1>Sample page</h1>
     </div>
   </Layout>
 );
