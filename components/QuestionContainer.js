@@ -14,25 +14,25 @@ class QuestionContainer extends React.Component {
   }
 
   handleClick() {
-    console.log("clicked");
+    // console.log("clicked");
     this.setState({ showConfirm: !this.state.showConfirm });
   }
 
   accept() {
-    console.log("accept");
+    // console.log("accept");
     this.setState({ showAnswer: true, disButton: true });
   }
 
   decline() {
-    console.log("decline");
+    // console.log("decline");
     this.setState({ showConfirm: false });
   }
 
   render() {
     const { question, answer } = this.props;
     const { showConfirm, showAnswer } = this.state;
-    console.log(this.props);
-    console.log(question);
+    // console.log(this.props);
+    // console.log(question);
     return (
       <div class="container">
         {showConfirm ? (
